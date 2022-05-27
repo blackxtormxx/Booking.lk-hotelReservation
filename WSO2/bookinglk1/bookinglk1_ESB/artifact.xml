@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="hotel" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/hotel.xml</file>
+    </artifact>
+    <artifact name="mainurl_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/mainurl_swagger.yaml</file>
+    </artifact>
+    <artifact name="mainurl_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/mainurl_metadata.yaml</file>
+    </artifact>
+    <artifact name="hotels" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/hotels.xml</file>
+    </artifact>
+    <artifact name="users" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/users.xml</file>
+    </artifact>
+    <artifact name="user" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/user.xml</file>
+    </artifact>
+    <artifact name="user_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/user_swagger.yaml</file>
+    </artifact>
+    <artifact name="user_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/user_metadata.yaml</file>
+    </artifact>
+    <artifact name="HotelPackage" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/HotelPackage.xml</file>
+    </artifact>
+    <artifact name="HotelPackage" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/HotelPackage.xml</file>
+    </artifact>
+    <artifact name="HotelPackage_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/HotelPackage_swagger.yaml</file>
+    </artifact>
+    <artifact name="HotelPackage_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/HotelPackage_metadata.yaml</file>
+    </artifact>
+    <artifact name="traveler" groupId="com.example.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/traveler.xml</file>
+    </artifact>
+    <artifact name="traveler" groupId="com.example.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/traveler.xml</file>
+    </artifact>
+    <artifact name="traveler_swagger" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/traveler_swagger.yaml</file>
+    </artifact>
+    <artifact name="traveler_metadata" groupId="com.example.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/traveler_metadata.yaml</file>
+    </artifact>
+</artifacts>
