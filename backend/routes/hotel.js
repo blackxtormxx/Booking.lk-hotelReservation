@@ -57,10 +57,10 @@ router.route("/deleteHotel/:ID").delete(async (req, res) => {
     var ID = req.params.ID; 
     Hotel_model.findByIdAndDelete(ID)
     .then(() => {
-        res.status(200).send({status :"Hotel Deleted"});
+        res.status(200).send({status :" Hotel Deleted "});
     }).catch((err) => {
         console.log(err);
-        res.status(500).send({status: "Error with Deleting Data",error: err.message});
+        res.status(500).send({status: " Error with Deleting Data ",error: err.message});
     });
 });
 
